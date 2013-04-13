@@ -1,0 +1,11 @@
+packages/**
+!packages/.gitkeep
+pubspec.lock
+.project
+.buildlog
+*.js_
+*.js.deps
+*.js.map
+*.dart.js
+out/*
+*.sw?

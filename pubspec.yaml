@@ -1,0 +1,6 @@
+name: app
+dependencies:
+  irc_client: any
+  dartlings:  any
+  http:       any
+  html5plus:       any
