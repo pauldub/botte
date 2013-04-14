@@ -149,7 +149,7 @@ class WebSocketHandler extends Handler {
 
     wsConnections.add(conn);
 
-    conn.transform(new CommandWebSocketTransformer()).listen(onMessage,
+    conn.listen(onMessage,
       onDone: () => wsConnections.remove(conn),
       onError: (e) => wsConnections.remove(conn)
     );
